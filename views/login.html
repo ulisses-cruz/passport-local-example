@@ -1,0 +1,12 @@
+<div class='login'>
+  <div class='login-wrapper'>
+    <h2 class='login-title'>Login</h2>
+    <form class='login-form' method='POST'>
+      {{#if error.message}}<p class='error'>{{error.message}}</p>{{/if}}
+      <input class='login-input' type='email' name='email' placeholder='Email' required autofocus>
+      <input class='login-input' type='password' name='password' placeholder='Password' required>
+      <input class='login-btn' type="submit" value="Login">
+    </form>
+  </div>
+</div>
+

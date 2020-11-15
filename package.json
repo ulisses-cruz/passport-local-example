@@ -1,0 +1,23 @@
+{
+  "name": "passport-local-example",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:ulisses-cruz/passport-local-example.git",
+  "author": "Ulisses Cruz <ulissescruz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -e js,html,css"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
